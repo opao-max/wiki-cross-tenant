@@ -316,3 +316,12 @@ python3 share-copy.py cleanup
 - `mentions-report.json` —— 链接改写统计
 - `comments-report.json` —— 评论迁移统计
 - `report.html`          —— 汇总报告
+
+## Output Files
+
+The tool writes the following under the run directory:
+
+- migration-summary.json - per-space migration counts and failures
+- mentions-report.json - cross-tenant link rewrites applied
+- eport.html - browsable HTML summary of the run
+
