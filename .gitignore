@@ -7,3 +7,10 @@ API清单.txt
 .idea/
 .vscode/
 *.log
+
+# Env & temp
+.env
+*.tmp
+.idea/
+.vscode/
+
